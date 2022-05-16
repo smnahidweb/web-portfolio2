@@ -75,3 +75,20 @@ border-image: linear-gradient(180deg,blue,cyan) ;
     background-color: black;
     color: white;
 }
+a:hover{
+    color:green;
+    text-decoration: underline;
+}
+.web2{
+    color: chartreuse;
+}
+h3{
+    color: deeppink;
+}
+.head2{
+    color: blue;
+}
+.exp2{
+    margin-left: 20px;
+    color: black;
+}
