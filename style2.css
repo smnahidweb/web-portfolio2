@@ -1,3 +1,77 @@
-h1,h3{
-    color: red;
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0%;
+}
+h1{
+    font-size: 75;
+}
+.heading1{
+    font-size: 50px;
+
+}
+.name-highlight{
+    color: orange;
+}
+.half-width{
+width: 40%;
+float: left ;
+margin-left: 5%;
+padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images1/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    min-height: 500px;
+    padding-bottom: 50px;
+}
+.button{
+    text-decoration: none;
+   background-image: linear-gradient(lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.para1{
+    color: green;
+
+}
+.dream-area{
+    background-image: url("images1/dream-bg.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: right;
+
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: aliceblue;
+}
+.experience{
+    background-image: url("images1/exp-bg.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(green, tomato);
+    border-image-slice: 1;
+}
+#stack-web{
+    border-left: 7px solid;
+border-image: linear-gradient(180deg,blue,cyan) ;
+    border-image-slice: 1;
+}
+.footer1{
+    text-align: center;
+    background-color: black;
+    color: white;
 }
